@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
+ <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll">
+  <vmap:AdSource id="preroll-ad-1" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[http://localhost:8000/vast.xml]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+ <!-- 
+ <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
+  <vmap:AdSource id="midroll-1-ad-1" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=sample_ar%3Dpremidpostpod%26deployment%3Dgmf-js&url=http://hola.github.io/examples/cdn/%23hola_player_ima&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&vad_type=linear&vpos=midroll&pod=2&mridx=1&rmridx=1&ppos=1&min_ad_duration=0&max_ad_duration=30000&vrid=6376&is_amp=0&dt=1567402465084&idt=8323&dlt=1567402436722&adk=421971784&correlator=1951335300499653&scor=1252117160079543&ged=ve4_td28_tt25_pd28_la0_er15.706.167.1006_vi0.0.324.1366_vp100_eb24299&osd=2&cookie_enabled=1&vis=1&jar=2019-9-2-5&hl=en&frm=1&video_doc_id=short_onecue&cmsid=496&media_url=http://video.h-cdn.com/static/mp4/tears_of_steel_360p_MP4.mp4&sdkv=h.3.328.2&sdki=44d&mpt=videojs-ima&mpv=0.2.0&sdr=1&vpa=click&vpmute=false&eid=21064201&u_so=l&afvsz=200x200,250x250,300x250,336x280,450x50,468x60,480x70&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
+  <vmap:AdSource id="midroll-1-ad-2" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=sample_ar%3Dpremidpostpod%26deployment%3Dgmf-js&url=http://hola.github.io/examples/cdn/%23hola_player_ima&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&vad_type=linear&vpos=midroll&pod=2&mridx=1&rmridx=1&ppos=2&min_ad_duration=0&max_ad_duration=30000&vrid=6376&is_amp=0&dt=1567402465084&idt=8323&dlt=1567402436722&adk=421971784&correlator=1951335300499653&scor=1252117160079543&ged=ve4_td28_tt25_pd28_la0_er15.706.167.1006_vi0.0.324.1366_vp100_eb24299&osd=2&cookie_enabled=1&vis=1&jar=2019-9-2-5&hl=en&frm=1&video_doc_id=short_onecue&cmsid=496&media_url=http://video.h-cdn.com/static/mp4/tears_of_steel_360p_MP4.mp4&sdkv=h.3.328.2&sdki=44d&mpt=videojs-ima&mpv=0.2.0&sdr=1&vpa=click&vpmute=false&eid=21064201&u_so=l&afvsz=200x200,250x250,300x250,336x280,450x50,468x60,480x70&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
+  <vmap:AdSource id="midroll-1-ad-3" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=sample_ar%3Dpremidpostpod%26deployment%3Dgmf-js&url=http://hola.github.io/examples/cdn/%23hola_player_ima&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&vad_type=linear&vpos=midroll&pod=2&mridx=1&rmridx=1&ppos=3&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=6376&is_amp=0&dt=1567402465084&idt=8323&dlt=1567402436722&adk=421971784&correlator=1951335300499653&scor=1252117160079543&ged=ve4_td28_tt25_pd28_la0_er15.706.167.1006_vi0.0.324.1366_vp100_eb24299&osd=2&cookie_enabled=1&vis=1&jar=2019-9-2-5&hl=en&frm=1&video_doc_id=short_onecue&cmsid=496&media_url=http://video.h-cdn.com/static/mp4/tears_of_steel_360p_MP4.mp4&sdkv=h.3.328.2&sdki=44d&mpt=videojs-ima&mpv=0.2.0&sdr=1&vpa=click&vpmute=false&eid=21064201&u_so=l&afvsz=200x200,250x250,300x250,336x280,450x50,468x60,480x70&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
+  <vmap:AdSource id="postroll-ad-1" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=sample_ar%3Dpremidpostpod%26deployment%3Dgmf-js&url=http://hola.github.io/examples/cdn/%23hola_player_ima&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&vad_type=linear&vpos=postroll&pod=3&ppos=1&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=6376&is_amp=0&dt=1567402465084&idt=8323&dlt=1567402436722&adk=421971784&correlator=1951335300499653&scor=1252117160079543&ged=ve4_td28_tt25_pd28_la0_er15.706.167.1006_vi0.0.324.1366_vp100_eb24299&osd=2&cookie_enabled=1&vis=1&jar=2019-9-2-5&hl=en&frm=1&video_doc_id=short_onecue&cmsid=496&media_url=http://video.h-cdn.com/static/mp4/tears_of_steel_360p_MP4.mp4&sdkv=h.3.328.2&sdki=44d&mpt=videojs-ima&mpv=0.2.0&sdr=1&vpa=click&vpmute=false&eid=21064201&u_so=l&afvsz=200x200,250x250,300x250,336x280,450x50,468x60,480x70&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak> -->
+</vmap:VMAP>

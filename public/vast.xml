@@ -1,0 +1,27 @@
+<!-- awal kode bambang -->
+<VAST version="2.0" xmlns:xsi="//www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd">
+  <Ad id="232859236">
+    <InLine>
+      <AdSystem version="2.0">VAST_Iklan</AdSystem>
+      <AdTitle></AdTitle>
+      <Description></Description>
+      <Survey></Survey>
+      <Creatives>
+        <Creative sequence="1" AdID="">
+          <Linear>
+            <Duration>00:00:05</Duration>
+            <AdParameters></AdParameters>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//www.jwplayer.com/]]></ClickThrough> <!-- link Target -->
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="0" width="640" height="360"><![CDATA[//cdn-std.dprcdn.net/files/acc_860066/4xWUlx]]></MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
+
+<!-- akhir kode bambang -->
